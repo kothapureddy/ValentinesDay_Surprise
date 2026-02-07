@@ -57,11 +57,11 @@ function showScreen(id) {
 // Slideshow
 // --------------------
 const photos = [
-    "images/photo1.jpg",
-    "images/photo2.jpg",
-    "images/photo3.jpg",
-    "images/photo4.jpg",
-    "images/photo5.jpg"
+    "images/photo1.JPG",
+    "images/photo2.JPG",
+    "images/photo3.JPG",
+    "images/photo4.JPG",
+    "images/photo5.JPG"
 ];
 
 let slideIndex = 0;
