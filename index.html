@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Pavani ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Music -->
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Cinematic Intro -->
+<div id="cinematic" class="cinematic">
+    <div id="cinematicText" class="cinematic-text"></div>
+</div>
+
+<!-- Floating Hearts -->
+<div id="hearts"></div>
+
+<!-- Confetti -->
+<canvas id="confettiCanvas"></canvas>
+
+<div class="card">
+
+    <!-- Welcome -->
+    <div class="screen" id="welcome">
+        <h1>Wifey 😘</h1>
+        <p>I made something special for you...</p>
+        <h2>— Hubby 🫶🏻</h2>
+        <button onclick="playMusic(); startMemories()">Open</button>
+    </div>
+
+    <!-- Slideshow -->
+    <div class="screen" id="memories">
+        <h2>Our Beautiful Moments 💕</h2>
+        <img id="slide" src="images/photo1.jpg">
+        <button onclick="startQuiz()">Next</button>
+    </div>
+
+    <!-- Quiz -->
+    <div class="screen" id="quiz">
+        <h2 id="question"></h2>
+        <div id="options"></div>
+    </div>
+
+    <!-- Proposal -->
+    <div class="screen" id="proposal">
+        <h1>ℳ𝑦 ℒ𖹭𝑣𝑒💕...</h1>
+        <h2>Will you be my Valentine? 💖</h2>
+        <button id="yesBtn">YES</button>
+        <button id="noBtn">No</button>
+    </div>
+
+    <!-- Success -->
+    <div class="screen" id="success">
+        <h1>She said YES! ❤️</h1>
+        <p id="finalMessage"></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
